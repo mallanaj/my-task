@@ -85,7 +85,7 @@ const Navbar = () => {
 						<Box
 							sx={{
 								flexGrow: 1,
-								display: { xs: 'none', md: 'flex' },
+								display: { xs: 'none', sm: 'flex' },
 								alignItems: 'center',
 							}}
 						>
