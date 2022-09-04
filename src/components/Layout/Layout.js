@@ -21,7 +21,7 @@ const Layout = (props) => {
 	return (
 		<ThemeProvider theme={isdark ? darkTheme : lightTheme}>
 			<CssBaseline />
-			<Box sx={{ bgcolor: '' }}>
+			<Box>
 				<CssBaseline />
 				<Navbar />
 				<Box>{props.children}</Box>
