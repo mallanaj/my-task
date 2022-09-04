@@ -13,6 +13,9 @@ const Card = ({ title, description, raised, id, onDelete }) => {
 				display: 'flex',
 				flexDirection: 'column',
 				justifyContent: 'space-between',
+				...(raised && {
+					border: '2px solid yellow',
+				}),
 			}}
 			raised={raised}
 		>

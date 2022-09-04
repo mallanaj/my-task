@@ -1,7 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-import { createTheme } from '@mui/material/styles';
-
 const initialState = {
 	darkTheme: false,
 };
